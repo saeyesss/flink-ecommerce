@@ -27,6 +27,9 @@ import org.apache.flink.connector.kafka.source.KafkaSource;
 import org.flinkecommerce.Deserializer.JSONValueDeserializationSchema;
 import org.flinkecommerce.Dto.Transaction;
 
+
+//.bin/flink run -c org.flinkecommerce.DataStreamJob "D:\project\dev\flink-ecommerce\flinkecommerce\target\flinkecommerce-1.0-SNAPSHOT.jar"
+
 public class DataStreamJob {
 
 	public static void main(String[] args) throws Exception {

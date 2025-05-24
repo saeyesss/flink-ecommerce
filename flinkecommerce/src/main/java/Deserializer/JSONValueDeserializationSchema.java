@@ -1,10 +1,9 @@
-package org.flinkecommerce.Deserializer;
+package Deserializer;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
 import org.apache.flink.api.common.serialization.DeserializationSchema;
 import org.apache.flink.api.common.typeinfo.TypeInformation;
-import org.apache.flink.util.Collector;
-import org.flinkecommerce.Dto.Transaction;
+import Dto.Transaction;
 
 import java.io.IOException;
 
